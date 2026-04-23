@@ -12,14 +12,15 @@ Es la distribución completa de LaTeX para macOS. Incluye `latexmk` y todos los 
 - **Instalación rápida (Homebrew):**
   ```bash
   brew install --cask mactex
+  ```
 
-2. Visual Studio Code
+### 2. Visual Studio Code
 
 El editor recomendado.
 
     Descarga: code.visualstudio.com
 
-3. Extensión LaTeX Workshop
+### 3. Extensión LaTeX Workshop
 
 Busca e instala la extensión LaTeX Workshop (de James Yu) desde el Marketplace de VS Code.
 ⚙️ Configuración de Preferencias (VS Code)
@@ -63,13 +64,13 @@ Para lograr que los archivos basura se guarden en una carpeta aparte pero el PDF
     // Recomendado: compilar automáticamente al guardar el archivo
     "latex-workshop.latex.autoBuild.run": "onFileChange"
 }
-``
+```
 🚀 Cómo utilizarlo
 
     Preparación: Crea una carpeta llamada build en la raíz de tu proyecto para que LaTeX pueda escribir allí los archivos temporales:
-    Bash
-
+    ```Bash
     mkdir build
+    ```
 
     Compilación: Abre tu archivo .tex y usa el atajo Option + Cmd + B o guarda el archivo (Cmd + S).
 
