@@ -53,16 +53,59 @@
 \chapter{Introducción}
 
 \section{Contexto y motivación}
-Descripción general del problema de la evaluación automática de respuestas en lenguaje natural y su relevancia en el ámbito educativo y tecnológico.
-
-\section{Planteamiento del problema}
-Limitaciones de los enfoques actuales y oportunidad que presentan los modelos de lenguaje de gran escala.
-
-\section{Objetivos del trabajo}
-Definición de los objetivos generales y específicos del TFM.
-
-\section{Contribuciones}
-Enumeración de las principales aportaciones del trabajo.
+\textit{Descripción general del problema de la evaluación automática de respuestas en lenguaje natural y su relevancia en el ámbito educativo y tecnológico. Situar el TFE dentro de un su contexto socio laboral. No tiene demasiada dificultad y la escritura es independiente del resto del trabajo. Dividir en varias subsecciones en las que se aborden distintos ámbitos. No olvidar del estudio de las características del lenguaje que son evaluables de manera menos subjetiva y automatizable.}
 
 \section{Estructura del documento}
-Breve descripción del contenido de cada capítulo.
+\textit{Breve descripción del contenido de cada capítulo.}
+
+\chapter{Problema de investigación y objetivos}
+
+\section{Definición del problema}
+\textit{Formalización del problema de la evaluación automática de respuestas en lenguaje natural. Párrafo que determine y categorice la naturaleza y alcance del problema}
+
+\subsection{Preguntas de investigación}
+\textit{Definición de las preguntas de investigación que guían el desarrollo del trabajo. En este apartado elegir preliminarmente en función de cuando de medibles, acotadas y alineadas con el desarrollo son las preguntas.
+\begin{enumerate}
+    \item 1. Fiabilidad y calidad de evaluación
+    \begin{itemize}
+        \item RQ1: ¿En qué medida los modelos de lenguaje de gran escala son capaces de evaluar automáticamente respuestas en lenguaje natural de forma consistente y fiable?
+        \item RQ2: ¿Qué grado de concordancia presentan las evaluaciones generadas por LLMs frente a métricas objetivas o criterios predefinidos?
+        \item RQ3: ¿Qué variabilidad presentan las evaluaciones de un mismo modelo ante múltiples ejecuciones con la misma entrada?
+    \end{itemize}
+    \item 2. Comparación de modelos y estrategias
+    \begin{itemize}
+        \item RQ4: ¿Existen diferencias significativas en el rendimiento de distintos LLMs en tareas de evaluación automática del lenguaje?
+        \item RQ5: ¿Cómo afectan distintas estrategias de prompting (zero-shot, few-shot, chain-of-thought) a la calidad de la evaluación generada?
+        \item RQ6: ¿Qué impacto tiene el uso de contexto adicional (por ejemplo, enunciados, soluciones de referencia o rúbricas) en la precisión de la evaluación?
+    \end{itemize}
+    \item 3. Arquitecturas híbridas y mejoras
+    \begin{itemize}
+        \item RQ7: ¿Mejora la calidad de la evaluación al combinar LLMs con técnicas tradicionales de análisis lingüístico?
+        \item RQ8: ¿Qué ventajas presentan los enfoques híbridos frente a los basados únicamente en LLMs en términos de interpretabilidad y robustez?
+        \item RQ9: ¿En qué medida la incorporación de módulos especializados (gramática, semántica, pronunciación) contribuye a mejorar el rendimiento global?
+    \end{itemize}
+    \item 4. Evaluación de respuestas habladas
+    \begin{itemize}
+        \item RQ10: ¿Cómo afecta la calidad de la transcripción automática (ASR) a la evaluación final de respuestas orales?
+        \item RQ11: ¿Qué aspectos del habla (fluidez, pronunciación, prosodia) pueden ser evaluados de forma fiable mediante modelos automáticos?
+    \end{itemize}
+    \item 5. Explicabilidad y utilidad del sistema
+    \begin{itemize}
+        \item RQ12: ¿Son las explicaciones generadas por los LLMs comprensibles y útiles como feedback educativo?
+        \item RQ13: ¿En qué medida los modelos son capaces de justificar sus evaluaciones de forma coherente y consistente?
+    \end{itemize}
+    \item 6. Robustez y limitaciones
+    \begin{itemize}
+        \item RQ14: ¿Cómo se comportan los modelos ante respuestas ambiguas, incompletas o incorrectas?
+        \item RQ15: ¿Qué tipos de errores son más frecuentes en la evaluación automática (por ejemplo, sobrevaloración, infravaloración, falta de coherencia)?
+    \end{itemize}
+    \item 7. Eficiencia y viabilidad
+    \begin{itemize}
+        \item RQ16: ¿Cuál es el coste computacional de los distintos enfoques y su viabilidad en entornos reales?
+        \item RQ17: ¿Es viable el uso de estos sistemas en contextos educativos sin intervención humana?
+    \end{itemize}
+\end{enumerate}}
+
+
+\section{Objetivos específicos}
+\textit{Descripción detallada de los objetivos técnicos y experimentales. Trasladado del apartado 1.3 para mayor coherencia.}
